@@ -7,16 +7,35 @@ design patterns, and real‑world utilities. Inspired by the Node‑500‑Exampl
 
 ```
 go-500-examples/
-├── cmd/                 # CLI entry points
-├── examples/            # Self-contained runnable examples
-│   ├── 001_hello_world/
-│   ├── 002_http_server/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── basics/
+│   ├── 001_hello_world.go
+│   ├── 002_variables.go
 │   └── ...
-├── internal/            # Private reusable code
-├── pkg/                 # Public reusable packages
-├── docs/                # Architecture and contribution guides
-├── go.mod
-└── README.md
+├── concurrency/
+│   ├── 101_goroutines.go
+│   ├── 102_channels.go
+│   └── ...
+├── networking/
+│   ├── 201_http_server.go
+│   ├── 202_tcp_client.go
+│   └── ...
+├── databases/
+│   ├── 301_postgres.go
+│   ├── 302_mongodb.go
+│   └── ...
+├── web/
+│   ├── 401_rest_api.go
+│   └── ...
+├── algorithms/
+│   ├── 501_sorting.go
+│   ├── 502_graph_bfs.go
+│   └── ...
+└── etc...
+
 ```
 
 ## Getting Started
